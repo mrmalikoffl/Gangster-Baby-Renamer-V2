@@ -125,7 +125,7 @@ async def send_doc(client, message):
         user_type = user_deta["usertype"]
     except:
         await message.reply_text(text=f"Hello dear **Admin** {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename file from your another account.\nBecause this BOT can't rename file sent by admin.\n\nDon't worry ! here we have a solution for you dear {message.from_user.first_name }.\nPlease use `/addpremium your_other_userid` to use premium feautres\n\n",
-                                  reply_markup=InlineKeyboardMarkup([
+                                  reply_markup=InlineKeyboardMarkup(
                                                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/TN68_Linkzz")],
                                          			     [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@voiceofmalikoffl")],
                                                                      [InlineKeyboardButton("Support Group", url='https://t.me/Msrenamerproteam'),
